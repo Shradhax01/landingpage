@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <style>
+        :root {
+            --primary: #0d6efd;
+            --bg: #f7f8fb;
+            --text: #222
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            font-family: Segoe UI, Roboto, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            margin: 0;
+            background: var(--bg)
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 1rem
+        }
+
+        header {
+            background: #fff;
+            padding: 1rem 0;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, .06)
+        }
+
+        .hero {
+            background: linear-gradient(90deg, rgba(13, 110, 253, .06), transparent);
+            padding: 3rem 0;
+            text-align: center
+        }
+
+        h1 {
+            margin: .2rem 0;
+            font-size: 2rem
+        }
+
+        p.lead {
+            margin: .5rem 0;
+            color: #444;
+            font-size: 1.05rem
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+            padding: 1rem 0
+        }
+
+        .feature {
+            background: #fff;
+            padding: 1rem;
+            border-radius: 8px;
+            min-width: 180px;
+            flex: 1 1 200px;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, .04)
+        }
+
+        .cta {
+            display: inline-block;
+            background: var(--primary);
+            color: #fff;
+            padding: .6rem 1rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600
+        }
+
+        footer {
+            padding: 1rem 0;
+            text-align: center;
+            color: #666;
+            font-size: .9rem
+        }
+
+        img {
+            max-width: 100%;
+            height: auto
+        }
+
+        @media (max-width:600px) {
+            h1 {
+                font-size: 1.5rem
+            }
+
+            .hero {
+                padding: 2rem
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <h2>Medicare</h2>
+    </header>
+    <main class="container">
+        <section class="hero">
+            
+            <p class="lead">Your Trusted Online Medical Store — Get quality medicines and healthcare essentials delivered right to your doorstep. We provide genuine products, secure payments, and fast delivery to ensure your family's health and well-being.</p>
+            <a class="cta" href="medicines.html">Shop Now</a>
+        </section>
+
+        <section class="features" aria-label="Why choose us">
+            <div class="feature">✅ <strong>100% Genuine Medicines</strong></div>
+            <div class="feature">✅ <strong>Fast &amp; Secure Delivery</strong></div>
+            <div class="feature">✅ <strong>Affordable Prices</strong></div>
+            <div class="feature">✅ <strong>Easy Online Ordering</strong></div>
+            <div class="feature">✅ <strong>24/7 Customer Support</strong></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">Shop Smart, Stay Healthy!</div>
+    </footer>
+</body>
+
+</html>
